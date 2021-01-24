@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Quicksand&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: poppins;
+}
+
+.navbar {
+  background-color: #050808 !important;
+  color: white;
+  padding: 10px 200px;
+  /* border-bottom: 1px solid red; */
+}
+
+.nav-item {
+  padding: 0px 20px !important;
+}
+.nav-item a {
+  color: white !important;
+  font-family: poppins;
+  font-weight: 100;
+}
+.intro {
+  height: 100vh !important;
+}
+
+.intro video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.intro .heading {
+  position: absolute !important;
+
+  transform: translate(-50%, -50%) !important;
+  color: white !important;
+  /* background-color: red; */
+}
+#heading3 {
+  position: absolute;
+  bottom: 100px;
+  color: white;
+  right: 50px;
+  opacity: 0;
+}
+#heading4 {
+  position: absolute;
+  top: 350px;
+  color: white;
+  left: 50px;
+  opacity: 0;
+}
+.left {
+  width: 80% !important;
+  top: 50% !important;
+  left: 50% !important;
+}
+.right {
+  width: 70% !important;
+  top: 40% !important;
+  left: 50% !important;
+}
+.center {
+  left: 50%;
+  top: 50%;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.heading h1 {
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 100px;
+  margin-bottom: 40px;
+}
+#heading2 {
+  /* #heading3 { */
+  opacity: 0;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  flex-direction: row;
+}
+#feat-info {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.container p {
+  display: flex;
+  font-family: quicksand;
+  font-size: 20px;
+
+  justify-content: center;
+  align-items: center;
+}
+#heading3 img {
+  width: 500px;
+}
+.heading-info {
+  width: 60%;
+  font-family: quicksand;
+  font-size: 20px;
+  line-height: 33px;
+}
+.button {
+  margin-top: 40px;
+  border: 3px solid white;
+  padding: 15px 70px;
+  background: transparent;
+  color: white;
+  width: 300px;
+  border-radius: 50px;
+}
+
+.progress {
+  padding: 50px;
+  width: auto;
+  background-color: transparent;
+  border: 5px solid white;
+  border-radius: 50%;
+  background: rgba(0, 0, 0);
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-indicator {
+  padding: 0px;
+  background-color: transparent;
+  position: absolute;
+  left: 0px;
+  top: 45px;
+  border: 10px dashed white;
+  width: 0px;
+  z-index: -1;
+}
+
+.progress img {
+  position: absolute;
+}
+section {
+  height: 100vh;
+  color: black;
+}
+
+section h1 {
+  padding-top: 300px;
+  text-align: center;
+  font-size: 80px;
+}
+.col-md-12,
+.col-sm-12,
+.col-lg-12,
+.col-xs-12 {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}

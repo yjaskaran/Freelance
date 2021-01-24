@@ -1,0 +1,118 @@
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* body {
+    display: none;
+  } */
+  .navbar {
+    /* background-color: red !important; */
+    color: white;
+    padding: 10px 30px !important;
+    /* border-bottom: 1px solid red; */
+  }
+
+  .intro .heading {
+    position: absolute !important;
+
+    transform: translate(-50%, -50%) !important;
+    color: white !important;
+    /* background-color: red; */
+  }
+
+  .left {
+    width: 80% !important;
+    top: 50% !important;
+    left: 50% !important;
+  }
+  .right {
+    width: 80% !important;
+    top: 40% !important;
+    left: 50% !important;
+  }
+  .container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .center {
+    left: 50%;
+    top: 50%;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .heading h1 {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 70px;
+    margin-bottom: 40px;
+  }
+  .heading-info {
+    width: 80%;
+    font-family: quicksand;
+    font-size: 20px;
+    line-height: 33px;
+  }
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+  .navbar {
+    color: white;
+    padding: 10px 30px !important;
+    /* border-bottom: 1px solid red; */
+  }
+  .heading h1 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-bottom: 30px;
+  }
+  .intro .heading {
+    position: absolute !important;
+
+    transform: translate(-40%, -50%) !important;
+    color: white !important;
+    /* background-color: red; */
+  }
+
+  .left {
+    width: 100% !important;
+    top: 50% !important;
+    left: 50% !important;
+  }
+  .right {
+    width: 100% !important;
+    top: 40% !important;
+    left: 50% !important;
+  }
+  .heading-info {
+    width: 80%;
+    font-family: quicksand;
+    font-size: 20px;
+    line-height: 33px;
+  }
+  .container {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: -40px !important;
+  }
+  #heading3 img {
+    width: 300px;
+  }
+  #heading3 p {
+    left: 0px;
+  }
+}
